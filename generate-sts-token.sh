@@ -40,7 +40,7 @@ show_help() {
     echo "  $0 meu-profile 3600 --export      # Token de 1 hora + export automático"
     echo "  $0 meu-profile --export           # Token de 1 hora + export automático"
     echo ""
-    
+
     if [[ "$os_type" == "windows" ]]; then
         echo "Para Windows (Git Bash/PowerShell/CMD):"
         echo "  # Git Bash:"
